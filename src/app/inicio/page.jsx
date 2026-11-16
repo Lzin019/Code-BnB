@@ -5,7 +5,6 @@ export default function Home() {
         <main>
             <h1>Bem-vindo ao BnB</h1>
             <p>Seu condomínio na palma da sua mão</p>
-            <h2>Feito Por Luiz</h2>
         </main>
     );
 }
