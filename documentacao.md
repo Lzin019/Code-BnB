@@ -9,15 +9,15 @@
 | RF03 | Encerrar Sessão | Sair apaga o token; sem Sair, ele expira em uma hora. |
 | RF04 | Cadastrar Cliente | Nome e CPF obrigatórios; CPF não repete. |
 | RF05 | Consultar Cliente | Busca por trecho do nome ou do CPF. |
-| RF06 | Atualizar Cliente | Altera nome e CPF pelo ID. |
-| RF07 | Excluir Cliente | Exclui pelo ID; bloqueia se tiver veículos. |
-| RF08 | Cadastrar Veículo | Modelo e cliente obrigatórios; placa opcional. |
-| RF09 | Atualizar Veículo | Altera modelo, placa e cliente pelo ID. |
-| RF10 | Excluir Veículo | Exclui pelo ID; bloqueia se tiver agendamentos. |
-| RF11 | Cadastrar Agendamento | Data e veículo obrigatórios. |
-| RF12 | Listar Agendamentos | Ordena por data, com dados do veículo e do cliente. |
-| RF13 | Atualizar Agendamento | Altera data e veículo pelo ID. |
-| RF14 | Excluir Agendamento | Exclui pelo ID, após confirmação. |
+| RF06 | Atualizar Cliente | Altera nome e CPF. |
+| RF07 | Excluir Cliente | Exclui Cliente, porém bloqueia se tiver imoveis. |
+| RF08 | Cadastrar Imóvel | Modelo e cliente obrigatórios. |
+| RF09 | Atualizar Imóvel | Altera modelo e cliente. |
+| RF10 | Excluir Imóvel | Exclui Imóvel, porém bloqueia se tiver Alugueis. |
+| RF11 | Cadastrar Alugueis | Data e Imóvel obrigatórios. |
+| RF12 | Listar Alugueis | Ordena por data, com dados do Imóvel e do cliente. |
+| RF13 | Atualizar Alugueis | Altera data, Imóvel e Dono do Imóvel . |
+| RF14 | Excluir Alugueis | Exclui Aluguel, após confirmação. |
 
 ### 1.2 Requisitos Não Funcionais
 
